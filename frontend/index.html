@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arolab AI</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <aside class="sidebar">
+
+            <h2 class="logo">Arolab<span>AI</span></h2>
+
+            <button class="new-chat">+ New Chat</button>
+
+            <div class="sidebar-bottom">
+                <p>AI Personal Assistant</p>
+                <small>Powered by Gemini</small>
+            </div>
+
+        </aside>
+
+        <main class="chat-container">
+
+            <header class="top-bar">
+                <h3>AI Assistant</h3>
+                <span class="status">● Online</span>
+            </header>
+
+            <section class="chat-content">
+
+                <div class="welcome-message">
+
+                    <h1>Hello, welcome to Arolab AI.</h1>
+
+                    <p>
+                        Your personal AI assistant.
+                        What would you like to explore today?
+                    </p>
+
+                </div>
+
+                <div id="chat-messages"></div>
+
+            </section>
+
+            <form id="chat-form" class="input-area">
+
+                <input
+                    type="text"
+                    id="user-input"
+                    placeholder="Message Arolab AI..."
+                    autocomplete="off"
+                    required
+                >
+
+                <button type="submit" id="send-button">
+                    Send
+                </button>
+
+            </form>
+
+        </main>
+
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
