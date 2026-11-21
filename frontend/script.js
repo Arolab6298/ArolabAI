@@ -5,7 +5,7 @@ const sendButton = document.getElementById("send-button");
 const chatMessages = document.getElementById("chat-messages");
 const newChatButton = document.querySelector(".new-chat");
 
-const API_URL = "https://YOUR-RENDER-ADDRESS.onrender.com/chat";;
+const API_URL = "https://arolab-ai-backend.onrender.com/chat";
 
 
 /* Create and display a chat message */
